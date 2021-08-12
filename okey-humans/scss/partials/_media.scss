@@ -1,0 +1,101 @@
+$r-768:768px;
+$r-992: 992px;
+$r-1200: 1200px;
+
+
+//break 768
+    @media (max-width: $r-768 - 1){
+        header{
+            height: auto;
+            nav{
+                .nav-brand{display: none;}
+            }
+            .bg-banner{
+                padding: 40px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+       
+        .grid-3,.grid{
+            grid-template-columns: repeat(1, 1fr); 
+        }
+        .grid-4{
+            grid-template-columns: repeat(2, 1fr); 
+        }
+        .section_one{
+            h1{
+                font-size: 28px;
+            }
+            .design-wrap{
+                flex-direction: column;
+                .wrap-text{
+                    max-width: 100%;
+                    padding-top: 20px;
+                    padding-left: 20px;
+                }
+            }
+            .design-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        
+        .btn-rose {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .section_three{
+        padding-bottom: 50px;
+        }
+        
+        .section-five{
+            form{
+                .form-grid{
+                    grid-template-columns: 1fr;
+                    .grid-fname{
+
+                        grid-template-columns: 1fr;
+                         
+                    }
+                }
+            }
+        }
+    }
+     // break 992
+  @media (max-width: $r-992 - 1){
+    
+    
+   
+   
+    
+    
+  }/*medi 992 end*/
+
+
+  //break 768 - 992
+
+  @media (min-width: $r-768) and (max-width: $r-992 - 1){
+
+    
+
+  } /* //break 768 - 992 */
+
+
+  //break 1200
+
+  @media (min-width: $r-992) and (max-width: $r_1200){
+       
+    // Sign Up
+
+    
+  }
+
+
+
+
+
+
+    
